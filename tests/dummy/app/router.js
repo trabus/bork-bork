@@ -6,6 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.mount("bork-bork");
 });
 
 export default Router;
